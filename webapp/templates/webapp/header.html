@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AkhilWebapp</title>
+    {% load staticfiles  %}
+    <link rer="stylesheet"
+          href="{% static 'css/bootstrap.min.css' %}" type="text/css"/>
+</head>
+<body class="body" style="background-color:#f6f6f6">
+ <div>
+     {% block content %}
+     {% endblock %}
+ </div>
+
+</body>
+</html>
